@@ -13,6 +13,8 @@ namespace FirstTime_Rider
             int[] intArray = new int[] {3, 4, 5, 2};
             //method
             Printout(intArray);
+            
+            
 
         }
 
