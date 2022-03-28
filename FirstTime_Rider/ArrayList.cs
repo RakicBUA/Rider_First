@@ -3,24 +3,12 @@ using System.Collections;
 
 namespace FirstTime_Rider
 {
-    public class List
+    public class Person
     {
-       ArrayList students = new ArrayList();
+        public string Name { get; set; }
+        public int Age { get; set; }
 
-       public ArrayList Students
-       {
-           get => students;
-           set => students = value;
-       }
-
-       public void Print()
-       {
-           foreach (var item     in students)
-           {
-               Console.WriteLine(item);
-           }
-       }
-       
        
     }
+    
 }
