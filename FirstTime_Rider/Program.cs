@@ -10,13 +10,13 @@ namespace FirstTime_Rider
             
             //int Array
 
-            int[] intArray = new int[4] {3, 4, 5, 2};
+            int[] intArray = new int[] {3, 4, 5, 2};
             
             // print out the numbers
 
             foreach (var item in intArray)
             {
-                Console.WriteLine(item);
+                Console.WriteLine("the numbers are: "+ item);
             }
             
 
